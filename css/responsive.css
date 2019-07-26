@@ -1,15 +1,85 @@
-@media screen and (max-width: 400px) {
-        body{
-          
-        }
-      }
-      @media screen and (min-width: 401px) and (max-width: 599px) {
-        body{
-          
-        }
-      }
-      @media screen and (min-width: 600px) {
-        body{
-          
-        }
-      }
+@media screen and (max-width: 550px) {
+  #maincontent {
+    width: 100%;
+  }
+
+  nav {
+    padding-top: 15px;
+  }
+
+  nav h1 a {
+    font-size: 1.5em;
+  }
+
+  .filter-options {
+    padding-top: 1em;
+    height: 10em;
+    text-align: center;
+    display: block;
+  }
+
+  .filter-options select {
+    width: 90%;
+  }
+
+  #restaurants-list {
+    width: 100%;
+    padding: 0;
+  }
+
+  #restaurants-list li {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 551px) and (max-width: 800px) {
+  #maincontent {
+    width: 100%;
+  }
+
+  nav {
+    padding-top: 40px;
+  }
+
+  nav h1 a {
+    font-size: 2em; 
+    line-height: 1;
+  }
+
+  .filter-options {
+    padding-top: 1em;
+    height: 10em;
+    text-align: center;
+  }
+
+  .filter-options select {
+    width: 90%;
+  }
+
+  #restaurants-list {
+    width: 100%;
+    padding: 0;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  #restaurants-list li {
+    width: 40%;
+    margin: 10px 0;
+    padding: 0;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 801px) {
+
+}
